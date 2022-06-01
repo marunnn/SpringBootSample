@@ -18,7 +18,7 @@ public interface UserMapper {
 	/*
 	 * ユーザー取得
 	 */
-	public List<MUser> findMany();
+	public List<MUser> findMany(MUser user);
 	
 	/*
 	 * ユーザー取得(1件)

@@ -14,7 +14,7 @@ public interface UserService {
 	/*
 	 * ユーザー取得
 	 */
-	public List<MUser> getUsers();
+	public List<MUser> getUsers(MUser user);
 	
 	/*
 	 * ユーザー取得(1件)
